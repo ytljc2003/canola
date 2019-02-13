@@ -2,7 +2,7 @@
 
 namespace ootest
 {
-	class OOTest()
+	class OOTest： ICore
 	{
 		OOTest() {}
 
