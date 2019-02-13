@@ -1,11 +1,19 @@
 #include <stdio.h>
 
-namespace ootest
+namespace oospace
 {
-	class OOTest： ICore
+	class OOTest
 	{
 		OOTest() {}
 
+		virtual void Callback();
+
 		void Fine() {}
-	}
+	};
+
+	
+	class MachineTest 
+	{
+		void Callback();
+	};
 }
